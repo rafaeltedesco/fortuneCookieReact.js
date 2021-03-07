@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+button:active {
+  background-color: rgb(235, 166, 76);
+  color: #fff;
+}
+
+.message {
+  margin-top: 20px;
+  background-color:khaki;
+  display: block;
+  width: 100vw;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Helvetica;
+}
